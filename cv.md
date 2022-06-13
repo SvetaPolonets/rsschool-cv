@@ -3,7 +3,7 @@
 ##Contacts:
 *Location: Minsk, Belarus
 *Phone: +375292407412
-\*Email: polonets.svetlana@gmail.com
+*Email: polonets.svetlana@gmail.com
 =============================================
 
 ##About myself:
@@ -28,7 +28,8 @@ function sum(a,b) {
 
 =============================================
 
-##Courses: -[JavaScript Manual on] ("learnjavascript.ru") (in the process)
+##Courses: 
+-[JavaScript Manual on] ("learnjavascript.ru") (in the process)
 -RS School Course "JavaScript/Front-end. Stage 0" (in the process)
 =============================================
 
