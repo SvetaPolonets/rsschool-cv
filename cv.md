@@ -1,4 +1,4 @@
-# #Svetlana Polonets
+#Svetlana Polonets
 
 ##Contacts:
 *Location: Minsk, Belarus
