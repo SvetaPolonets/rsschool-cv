@@ -4,17 +4,30 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <title>Document html/css</title>
 </head>
 <body>
+   <header class="info-block">
    <h1>Svetlana Polonets</h1>
-   <h2>Contacts:</h2>
-   <ul>
-      <li>Location: Minsk, Belarus</li>
-      <li>Phone: +375292407412</li>
-      <li>Email: polonets.svetlana@gmail.com</li>
-   </ul>
+
+   <h2>Junior Frontend Developer</h2>
+   <h3>Contacts:</h3>
+      <p>Location: Minsk, Belarus</p>
+      <p>Phone: +375292407412</p>
+      <p>Email: polonets.svetlana@gmail.com</p>
+    </header>
+   <nav>
+      <ol>
+         <li>About myself</li>
+         <li>Code example</li>
+         <li>Courses</li>
+         <li>Languages</li>
+      </ol>
+   </nav>
+   <main>
    <h2>About myself</h2>
+   <img src="/img/IMG_20220218_115541.jpg" alt="Photo's place" width="250" height="300">
    <p>At the moment i've got lots of free time and i'm looking for a new profession. Thank you for the opportunity to start with you in Web!</p>
    <h2>Skills and Proficiency:</h2>
    <ul>
@@ -24,22 +37,38 @@
       <li>VS Code</li>
    </ul>
    <h2>Code example:</h2>
-   <script>
-   function sum(a,b) {
-      let result=a+b;
-      return result;
-   }
-   </script>
+   <script src="app.js"></script>
    <h2>Courses:</h2>
    <ul>
-      <li>[JavaScript Manual on] ("learnjavascript.ru") (in the process)</li>
-      <li>RS School Course "JavaScript/Front-end. Stage 0" (in the process)</li>
+      <li><a href="https://learn.javascript.ru/"> Manual on "learn.javascript.ru" (in the process)</a></li>
+      <li><a href="https://rs.school/js-stage0/"> School Course "JavaScript/Front-end. Stage 0" (in the process)</a></li>
    </ul>
    <h2>Languages:</h2>
-   <ul>
-      <li>English - Pre-Intermediate</li>
-      <li>Belorussion - Native</li>
-      <li>Russion - Intermediate</li>
-   </ul>
+   <table>
+      <thead class="head-color">
+      <tr>
+         <td>Language</td>
+         <td>Level</td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+         <td>English</td>
+         <td>Pre-Intermediate</td>
+      </tr>
+      <tr>
+         <td>Belorussion</td>
+         <td>Native</td>
+      </tr>
+      <tr>
+         <td>Russsion</td>
+         <td>Intermediate</td>
+   </tr>
+   </tbody>
+   </table>
+</main>
+<footer>
+
+</footer>
 </body>
 </html>

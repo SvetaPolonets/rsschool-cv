@@ -1,3 +1,10 @@
-
+.info-block {
+text-align: center;
+background-color: blueviolet;
+color: antiquewhite;
+}
+.head-color {
+   background-color: rgba(0,0,1,0.2);
+}
 
    
