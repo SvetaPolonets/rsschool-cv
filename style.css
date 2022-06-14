@@ -2,16 +2,16 @@
  position: normal;
 
  display: block;
- width: 250px;
+ width: 500px;
  height: 260px;
- margin: 0;
+ margin: auto;
  padding: 10px;
 
  font-family: 'Times New Roman', Times, serif;
  font-size: 14x;
  line-height: 20px;
  font-weight: 50px;
- text-align: left;
+ text-align: center;
  
  background-color: #cc87c9;
  border: 1px solid #53084d;
@@ -25,7 +25,7 @@ h2 {
  display: block;
  width: 200px;
  height: 15px;
- margin: 25px;
+ margin: auto;
  padding: 15px;
  color: #53084d;
 }
@@ -34,18 +34,25 @@ h2 {
  position: normal;
 
  display: block;
- float: top;
- width: 200px;
+ width: 500px;
  height: 20px;
- margin: 30px;
+ margin: auto;
  padding: 10px;
-
 }
  
 .head-color {
  background-color: rgba(188, 188, 192, 0.2);
 }
 
+.course-information {
+ position: fixed;
+ top: auto;
 
+ display: block;
+ margin: auto;
+ background-color: antiquewhite;
+ border: dashed #53084d 1px;
+ border-radius: 5px;
+}
 
    
